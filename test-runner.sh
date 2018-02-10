@@ -7,7 +7,7 @@
 : "${UUID:?The UUID must be set}"
 
 # update the status URI with the UUID
-STATUS_URI="${STATUS_URI}/status/${UUID}"
+STATUS_URI="${STATUS_URI}/tests/${UUID}/status"
 echo "STATUS_URI: ${STATUS_URI}"
 echo "TEST_URI: ${URL}"
 
